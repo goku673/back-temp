@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ['http://localhost:8082', 'http://localhost:8000','*'],
+    origin: ['https://front-is-al73.vercel.app/', 'https://front-is-al73.vercel.app/es','*'],
     credentials: true,
   }),
 );
